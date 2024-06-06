@@ -98,7 +98,7 @@ def analyse_octave_band(filepaths, nth_oct = 3.0, order = 4, x_log = True, graph
 
         temp += 1
 
-    # 
+    # グラフの調整
     if x_log == True:
         plt.xscale('log')
     plt.title("Octave-band analysis")
